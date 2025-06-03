@@ -1,0 +1,6 @@
+@amzonApi_HostAddress = http://localhost:5010
+
+GET {{amzonApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

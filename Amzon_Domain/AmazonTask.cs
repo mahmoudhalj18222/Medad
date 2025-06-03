@@ -19,5 +19,7 @@ namespace Amzon_Domain
         public int EmployeeId { get; set; }
 
         public Employee employee { get; set; }
+
+        public List<Category> categories { get; set; } = new List<Category>();
     }
 }

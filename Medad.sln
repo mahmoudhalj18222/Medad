@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon_mainApp", "Amazon_ma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon_Data", "Amazon_Data\Amazon_Data.csproj", "{71A63E51-B890-4B4B-9490-0447658E19E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "amzonApi", "amzonApi\amzonApi.csproj", "{D1BD5689-77D0-4F1C-AB74-9CF6993017E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medad.ServiceDefaults", "Medad.ServiceDefaults\Medad.ServiceDefaults.csproj", "{5C23212F-5E33-BF33-E10E-FD003AE8DF40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,8 +73,19 @@ Global
 		{71A63E51-B890-4B4B-9490-0447658E19E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A63E51-B890-4B4B-9490-0447658E19E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A63E51-B890-4B4B-9490-0447658E19E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1BD5689-77D0-4F1C-AB74-9CF6993017E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1BD5689-77D0-4F1C-AB74-9CF6993017E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1BD5689-77D0-4F1C-AB74-9CF6993017E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1BD5689-77D0-4F1C-AB74-9CF6993017E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C23212F-5E33-BF33-E10E-FD003AE8DF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C23212F-5E33-BF33-E10E-FD003AE8DF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C23212F-5E33-BF33-E10E-FD003AE8DF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C23212F-5E33-BF33-E10E-FD003AE8DF40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60ED574F-08FB-4E6D-85E6-AA2B08DBE53E}
 	EndGlobalSection
 EndGlobal
