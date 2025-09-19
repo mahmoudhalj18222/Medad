@@ -15,5 +15,21 @@ namespace EqulatorApp
         {
             return SceandNam;
         }
+        public static T IncreaseByOne<T>(T number)
+        {
+            try
+            {
+                int numberAsIn = (int)Convert.ChangeType(number, typeof(int));
+                numberAsIn += 1;
+                return (T)Convert.ChangeType(numberAsIn, typeof(T));
+            }
+            catch (Exception)
+            {
+
+                return default(T);
+            }
+            
+
+        }
     }
 }
